@@ -1,0 +1,90 @@
+/* Global */
+:root {
+  /* Color */
+  --color-navy: #001970;
+  --color-light-pink: #ffebee;
+  --color-white: #ffffff;
+  --color-pink: #e44653;
+
+  /* Font size */
+  --font-large: 50px;
+  --font-regular: 30px;
+  --font-small: 25px;
+  --font-micro: 18px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 500px;
+  --weight-regular: 300;
+
+  /* Size */
+  --size-border-radius: 30px;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Sunflower";
+  cursor: default;
+  background-color: var(--color-navy);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo__txt {
+  color: var(--color-light-pink);
+  font-size: var(--font-large);
+}
+
+/* Input */
+#input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input__name {
+  margin: 10px 16px;
+  color: var(--color-white);
+  font-size: var(--font-small);
+}
+.input__box {
+  margin: 10px 0;
+  height: 40px;
+  width: 200px;
+}
+
+.input__txt {
+  margin-top: 30px;
+  color: var(--color-white);
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+}
+
+/* Button */
+.btn {
+  margin: 20px 0;
+  width: 400px;
+  height: 50px;
+  border: 1px solid var(--color-navy);
+  border-radius: var(--size-border-radius);
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  font-size: var(--font-small);
+  cursor: pointer;
+  font-weight: 700;
+}

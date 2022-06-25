@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Bot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans:wght@400;700&family=Roboto:wght@300;400;700&family=Sunflower:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="src/main.js"></script>
+  </head>
+  <body>
+    <section id="logo">
+      <img src="img/heart.png" alt="로고입니다." class="logo__img" />
+      <p class="logo__txt">인스타그램 "좋아요"를 자동으로!</p>
+    </section>
+
+    <section id="input">
+      <div class="input__form">
+        <span class="input__name">해시 태그</span>
+        <input type="text" class="input__box" />
+      </div>
+
+      <div class="input__form">
+        <span class="input__name">게시글 수</span>
+        <input type="text" class="input__box" />
+      </div>
+
+      <div class="input__description">
+        <p class="input__txt">
+            * 해시 태그는 쉼표(,)로 구분하여 여러가지 작성 가능합니다.</br>
+            * '게시글 수'란에는 '좋아요'를 누를 게시글의 수를 작성해주세요.
+        </p>
+      </div>
+
+    </section>
+    <section id="button">
+      <button class="btn">Go!</button>
+    </section>
+  </body>
+</html>
